@@ -1,3 +1,4 @@
+
 <div class="container box">
     <div class="row  justify-content-center">
       <div class="col-lg-5 col-md-10 col-12 text-light outer-box">
@@ -10,10 +11,9 @@
               id="fieldName" placeholder="Enter name"
               name="employeename" [(ngModel)]="employee.name"
               #name="ngModel" required
-              [class.is-invalid]="name.invalid && name.touched"
-              >
+              [class.is-invalid]="name.invalid && name.touched">
               <small [class.d-none]="name.valid || name.untouched"
-              class="text-danger bg-warning-subtle p-2 fw-bold">Field is required</small> 
+              class="text-danger">Field is required</small> 
             </div><br>
 
             <div class="form-group">
@@ -24,7 +24,7 @@
               #designation="ngModel" required
               [class.is-invalid]="designation.invalid && designation.touched">
               <small [class.d-none]="designation.valid || designation.untouched"
-              class="text-danger bg-warning-subtle p-2 fw-bold">Field is required</small> 
+              class="text-danger">Field is required</small> 
             </div><br>
 
             <div class="form-group">
@@ -35,7 +35,7 @@
               #location="ngModel" required
               [class.is-invalid]="location.invalid && location.touched">
               <small [class.d-none]="location.valid || location.untouched"
-              class="text-danger bg-warning-subtle p-2 fw-bold">Field is required</small> 
+              class="text-danger">Field is required</small> 
             </div><br>
 
             <div class="form-group">
@@ -46,7 +46,7 @@
               #salary="ngModel" required
               [class.is-invalid]="salary.invalid && salary.touched">
               <small [class.d-none]="salary.valid || salary.untouched"
-              class="text-danger bg-warning-subtle p-2 fw-bold">Field is required</small> 
+              class="text-danger">Field is required</small> 
             </div>
 
             <br>

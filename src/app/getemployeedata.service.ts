@@ -1,3 +1,4 @@
+//fetch the data from an external api
 import { Injectable } from '@angular/core';
 import { HttpClient} from '@angular/common/http';
 
